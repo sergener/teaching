@@ -58,21 +58,3 @@ attr_accessor :ruby
 
 end
 
-
-
-
-	# def move(direction)
-	# 	if direction == right || left
-	# 		if ruby.long>=0 || ruby.long<=11
-	# 			if direction == right
-	# 				@ruby.long += 1
-	# 			else
-	# 				@ruby.long -=1
-	# 				# if @ruby ==
-	# 		else
-	# 			puts "You can't move off the map!"
-	# 		end
-	# 	elsif direction == up || down
-
-	# end
-

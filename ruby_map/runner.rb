@@ -1,14 +1,40 @@
 require_relative "ruby_map"
 
-ruby = Map.new
+alkis = Map.new
 
-2.times do 
-	ruby.move_down
+# 2.times do 
+# 	alkis.move_down
+# end
+
+# 4.times do 
+# 	alkis.move_right
+
+# end
+
+# 1.times do
+# 	alkis.move_up
+
+# end
+
+# alkis.say_hello
+
+
+2.times do
+	alkis.move_down
 end
-4.times do
-	ruby.move_right
+
+5.times do
+	alkis.move_right
+
 end
-ruby.move_up
-# puts ruby[:lat]
-# puts ruby[:long]
-ruby.say_hello
+
+3.times do
+	alkis.move_up
+
+end
+
+alkis.say_hello
+	# move_down
+	# move_up
+	# move_right
+	# move_left
