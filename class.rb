@@ -38,4 +38,14 @@ class Person
 		# end
 	end
 
+	# 	def count
+	# 	puts "What number do you want " + @name + " to count to?"
+	# 	num = #how can we get a number?
+	# 	counter = 0
+	# 	while num >= counter
+	# 		puts counter
+	# 		counter += 1
+	# 	end
+	# end
+
 end
