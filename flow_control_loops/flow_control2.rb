@@ -6,4 +6,4 @@ if #what are we comparing?
 #end
 
 
-#let's expand out and use the two other m
+#let's expand out and use the two operators
