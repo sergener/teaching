@@ -1,33 +1,34 @@
 # What happens when you multiply a string?
-puts ____ * 5
+puts "Alkis" * 5
 
 #Shovel and .concat
 #What if you want to add to a string?
 phrase = "Hello "
-phrase << _____
+phrase << "world"
 puts phrase
 
 # OR
 
 phrase = "Hello "
-phrase.concat(____)
+phrase.concat("dude")
 puts phrase
 
 
 # Can we turn an integer into a string? Put an integer into the blank space
-word = ____.to_s
+word = 9999999999999999999999999999999999999999999999999999999999999999999999999999.to_s
+puts word
 
 #How can we check what class it is to make sure?
 puts word.class
 
 
 #Changing how something is shown
-_____.capitalize
+# _____.capitalize
 
-_____.upcase
+# _____.upcase
 
-_____.downcase
+# _____.downcase
 
 
 #Can we check if a string contains a word or phrase in it?
-______.include?(____)
+puts "i am cool".include?("am cool")
