@@ -5,3 +5,21 @@ body {
 ul {
 	color: green;
 }
+
+h1 {
+	font-family: sans-serif;
+}
+
+h2 {
+	font-family: Helvetica;
+	font-style: italic;
+}
+
+.change-font {
+	font-size: 60px;
+}
+
+#single-change {
+	color: blue;
+	display: inline;
+}
