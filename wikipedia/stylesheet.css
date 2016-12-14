@@ -1,0 +1,31 @@
+#content {
+	display: inline;
+	float: left;
+	width: 70%;
+}
+.infocard {
+	width: 25%;
+	display: inline-block;
+	float: right;
+	border-style: solid;
+	border-width: 1px;
+	background-color: #d3d3d3;
+}
+
+tbody tr th {
+	margin: 0 auto;
+}
+
+.row {
+	float: left;
+}
+
+td {
+	float: right;
+}
+
+#toc {
+	float: none;
+	border-style: solid;
+	border-width: 1px;
+}
