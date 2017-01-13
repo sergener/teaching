@@ -1,16 +1,19 @@
+
 #content {
-	display: inline;
-	float: left;
-	width: 70%;
+/*	display: block;*/
+/*	float: left;
+	position: relative;*/
 }
+
 .infocard {
-	width: 25%;
-	display: inline-block;
+	width: 251px;
 	float: right;
+	margin-left: 10px;
 	border-style: solid;
 	border-width: 1px;
 	background-color: #d3d3d3;
 }
+
 
 tbody tr th {
 	margin: 0 auto;
@@ -25,7 +28,14 @@ td {
 }
 
 #toc {
-	float: none;
+	float: left;
 	border-style: solid;
 	border-width: 1px;
+	padding: 5px;
+}
+
+.left {
+    overflow: hidden;
+    /*border: 2px dashed #f0f;*/
+    display: flex;
 }
