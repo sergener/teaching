@@ -12,11 +12,14 @@
 	border-style: solid;
 	border-width: 1px;
 	background-color: #d3d3d3;
+	padding: 5px;
 }
 
 
 tbody tr th {
 	margin: 0 auto;
+	text-align: center;
+	padding: 3px;
 }
 
 .row {
@@ -25,6 +28,10 @@ tbody tr th {
 
 td {
 	float: right;
+}
+
+.normal {
+	font-weight: normal;
 }
 
 #toc {
@@ -36,6 +43,10 @@ td {
 
 .left {
     overflow: hidden;
-    /*border: 2px dashed #f0f;*/
+    border: 2px dashed #f0f;
     display: flex;
+}
+
+.thtitle {
+	background-color: lavender;
 }
