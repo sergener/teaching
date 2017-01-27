@@ -5,6 +5,19 @@
 	position: relative;*/
 }
 
+a:link {
+    color: blue;
+    text-decoration: none;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 .infocard {
 	width: 251px;
 	float: right;
@@ -38,7 +51,14 @@ td {
 	float: left;
 	border-style: solid;
 	border-width: 1px;
-	padding: 5px;
+	padding: 10px;
+	background-color: #f6f6f6;
+}
+
+#toctitle{
+	text-align: center;
+	vertical-align: middle;
+	padding-bottom: 5px;
 }
 
 .left {
@@ -49,4 +69,12 @@ td {
 
 .thtitle {
 	background-color: lavender;
+}
+
+.align-right {
+	float: right
+}
+
+.medium {
+	width: 150px;
 }

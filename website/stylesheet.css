@@ -1,6 +1,29 @@
-body {
-	background-color: yellow;
+.dogs {
+	background-image: url(images/pawprint.jpg);
 }
+
+p {
+	background-color: rgba(255,0,0,0.1) 
+}
+
+.small {
+	width: 250px;
+}
+
+.align-right {
+	float: right;
+}
+
+.align-left {
+	float: left;
+}
+
+.align-center {
+	display: block;
+	margin: 0px auto;
+}
+
+
 
 ul {
 	color: green;
