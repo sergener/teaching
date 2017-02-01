@@ -40,16 +40,7 @@ tbody tr th {
 }
 
 td {
-	float: right;
-}
-
-.normal {
-	font-weight: normal;
-}
-
-#toc {
-	float: left;
-	border-style: solid;
+   der-style: solid;
 	border-width: 1px;
 	padding: 10px;
 	background-color: #f6f6f6;

@@ -1,0 +1,79 @@
+
+header {
+    background-color: pink;
+    border-radius: 8px;
+    border-bottom: 1px dotted grey;
+    position: fixed;
+    width: 1000px;
+    height: 80px;
+    top: 0px;
+    z-index: 100;
+}
+
+h1 {
+    position: absolute;
+    left: 10px;
+    top: -35%;
+    font-size: 50px;
+    border-radius: 5px;
+}
+
+a:link {
+    color: #304a4a;
+    text-decoration: none;
+}
+
+a:hover {
+    color: blanchedalmond;
+}
+
+h1 a:hover {
+    color: blanchedalmond;
+    font-size: 55px;
+}
+
+#website-links {
+	position: absolute;
+    right: 10px;
+    top: 5px;
+}
+
+body {
+    margin: auto;
+    max-width: 1000px;
+    padding-top: 5.5em;
+    font-family: lato, sans-serif;
+    color: #2F4F4F;
+    min-height:200px;
+    height: 100%;
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    height: 45px;
+    width: 100%;
+    background-color: pink;
+    max-width: 1000px;
+    border-radius: 5px;
+    border-top: 1px dotted grey;
+    z-index: 100;
+}
+
+h4 {
+	position: absolute;
+	left: 5px;
+	margin: auto;
+	padding-top: 5px;
+}
+footer a {
+	left-padding: 0px;
+}
+
+footer ul {
+    position: absolute;
+    right: 0px;
+    margin: auto;
+    padding-top: 5px;
+}
