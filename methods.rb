@@ -15,19 +15,13 @@ x = "my name is "
 number = "5"
 
 # 2. Check the length of your name:
-# puts my_name.length
-# puts x.length
 
-# puts number+number
-# puts x+friend
 
 # 3. Another method is .reverse. What do you think this method does? Try it out!
-# puts my_name.reverse
 
 
 # 4. Two more methods are .upcase and .downcase. Let's try them and see what they do to your name!
-puts my_name.upcase
-puts my_name.downcase
+
 
 
 
@@ -40,12 +34,9 @@ puts my_name.downcase
 # Try it yourself!
 
 # 1. Create a new variable with a greeting
-my_greeting = "hello my name is alkis"
 
 # 2. How many times do you want to print the greeting?
-# 3000.times do
-# 	puts my_greeting
-# end
+
 
 
 
